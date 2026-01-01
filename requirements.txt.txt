@@ -1,6 +1,8 @@
 streamlit
 pandas
 numpy
-matplotlib
+plotly
+requests
+openpyxl
 seaborn
 scipy
