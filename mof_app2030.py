@@ -1,7 +1,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
+import matplotlib as plt
 import seaborn as sns
 
 sns.set_theme(style="whitegrid")
@@ -233,4 +234,5 @@ with tab_h2o:
     ax_h2o.set_xlabel("Relative Humidity (%)")
     ax_h2o.set_ylabel("Water Uptake (mmol/g)")
     ax_h2o.legend()
+
     st.pyplot(fig_h2o)
